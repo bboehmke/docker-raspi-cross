@@ -13,3 +13,10 @@ docker run --rm \
     bboehmke/raspi-cross \
     sh -c 'mkdir -p build && cd build && cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_TOOLCHAIN_FILE=/raspi/raspi.cmake ../ && make'
 ```
+
+Included Packages
+-----------------
+
+* CMake
+* Qt4
+* Qt5
