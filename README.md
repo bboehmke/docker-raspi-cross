@@ -18,5 +18,5 @@ Included Packages
 -----------------
 
 * CMake
-* Qt4
+* Qt4 + QCA
 * Qt5
