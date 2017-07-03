@@ -28,7 +28,7 @@ COPY make_rootfs.sh /raspi/make_rootfs.sh
 ENV PATH /raspi/rpi-tools/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ENV ROOT_FS /raspi/rootfs/
 ENV TMP_DIR /raspi/tmp/
-ENV PACKAGES cmake,qt5-default,qttools5-dev,qt4-default,qt4-dev-tools,libc6-dev,libstdc++-4.9-dev,pkg-config,libqca2-dev
+ENV PACKAGES cmake,qt5-default,qttools5-dev,qt4-default,qt4-dev-tools,libc6-dev,libstdc++-4.9-dev,pkg-config,libqca2-dev,qtdeclarative5-dev
 
 # get root file system of raspberry
 RUN /raspi/make_rootfs.sh && rm /raspi/make_rootfs.sh
