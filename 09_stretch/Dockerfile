@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:stretch
 MAINTAINER Benjamin Böhmke <benjamin@boehmke.net>
 
 
